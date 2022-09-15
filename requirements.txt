@@ -1,0 +1,133 @@
+-e .
+
+# QA_med_data/mp/visualization/visualize_imgs.py: 10
+Pillow == 8.1.0
+
+# QA_med_data/mp/data/DataConnectorJIP.py: 4
+# QA_med_data/mp/data/datasets/dataset_JIP_cnn.py: 14
+# QA_med_data/mp/data/datasets/ds_mr_lung_VESSEL12.py: 9
+# QA_med_data/mp/utils/load_restore.py: 11
+# QA_med_data/mp/utils/lung_captured.py: 1
+# QA_med_data/mp/utils/preprocess_utility_functions.py: 4
+# QA_med_data/mp/visualization/visualize_imgs.py: 7
+# QA_med_data/scripts/LungCaptured.py: 3
+# QA_med_data/scripts/surfaceDiceCoefficient.py: 2
+# QA_med_data/test/visualization/test_visualize_imgs.py: 2
+SimpleITK == 1.2.4
+
+# QA_med_data/mp/utils/lung_captured.py: 3
+# QA_med_data/scripts/LungCaptured.py: 2
+git+https://github.com/amrane99/lungmask
+
+# QA_med_data/histogramms_data.py: 5
+# QA_med_data/mp/utils/seaborn/legend_utils.py: 5
+# QA_med_data/mp/visualization/plot_results.py: 7
+# QA_med_data/mp/visualization/visualize_imgs.py: 6
+# QA_med_data/notebooks/confusion matrix/Calculate_Confusion_Matrices.ipynb: 7
+# QA_med_data/seg_qual_model_eval.py: 5
+matplotlib == 3.2.1
+
+# QA_med_data/mp/data/datasets/ds_mr_lung_VESSEL12.py: 10
+nibabel == 3.1.1
+
+# QA_med_data/histogramms_data.py: 3
+# QA_med_data/mp/data/datasets/dataset_JIP_cnn.py: 13
+# QA_med_data/mp/data/datasets/dataset_statistics.py: 6
+# QA_med_data/mp/data/datasets/dataset_utils.py: 5
+# QA_med_data/mp/data/datasets/ds_mr_lung_VESSEL12.py: 11
+# QA_med_data/mp/eval/metrics/simple_scores.py: 1
+# QA_med_data/mp/models/classification/dice_predictor.py: 3
+# QA_med_data/mp/models/model.py: 7
+# QA_med_data/mp/models/statistical/histogramm_based_warnings.py: 4
+# QA_med_data/mp/utils/Iterators.py: 2
+# QA_med_data/mp/utils/agents/save_restore.py: 4
+# QA_med_data/mp/utils/feature_extractor.py: 1
+# QA_med_data/mp/utils/intensities.py: 2
+# QA_med_data/mp/utils/load_restore.py: 7
+# QA_med_data/mp/utils/lung_captured.py: 4
+# QA_med_data/mp/utils/preprocess_utility_functions.py: 5
+# QA_med_data/mp/utils/save_results.py: 4
+# QA_med_data/mp/visualization/visualize_imgs.py: 5
+# QA_med_data/notebooks/accuracy/Calculate_acc_mean.ipynb: 2
+# QA_med_data/notebooks/confusion matrix/Calculate_Confusion_Matrices.ipynb: 5
+# QA_med_data/notebooks/p-test/P-Value_calculation.ipynb: 6
+# QA_med_data/notebooks/precision_recall_error/Precision_Recall_Specificity_Sensitivity_Error.ipynb: 5
+# QA_med_data/scripts/LungCaptured.py: 5
+# QA_med_data/scripts/surfaceDiceCoefficient.py: 3
+# QA_med_data/seg_qual_model_eval.py: 4,193,194
+# QA_med_data/test/utils/test_create_patches.py: 1
+# QA_med_data/train_restore_use_models/CNN_train_restore_use.py: 7
+# QA_med_data/train_restore_use_models/train_int_based_quantifier.py: 2
+numpy == 1.19.4
+
+# QA_med_data/mp/utils/save_results.py: 5
+# QA_med_data/mp/visualization/plot_results.py: 6
+# QA_med_data/notebooks/confusion matrix/Calculate_Confusion_Matrices.ipynb: 6
+pandas == 1.0.3
+
+# QA_med_data/histogramms_data.py: 4
+# QA_med_data/mp/utils/Iterators.py: 5
+# QA_med_data/mp/utils/feature_extractor.py: 3
+scikit_image == 0.18.1
+scikit-learn == 0.23.2
+
+# QA_med_data/mp/visualization/plot_results.py: 8
+# QA_med_data/notebooks/confusion matrix/Calculate_Confusion_Matrices.ipynb: 8
+seaborn == 0.10.1
+
+# QA_med_data/mp/utils/update_bots/telegram_bot.py: 10
+python-telegram-bot == 12.8
+
+# QA_med_data/mp/agents/cnn_agents.py: 6
+# QA_med_data/mp/data/datasets/dataset_JIP_cnn.py: 8
+# QA_med_data/mp/data/datasets/dataset_cnn.py: 11
+# QA_med_data/mp/data/datasets/dataset_utils.py: 6
+# QA_med_data/mp/data/pytorch/pytorch_cnn_dataset.py: 17
+# QA_med_data/mp/data/pytorch/pytorch_dataset.py: 6
+# QA_med_data/mp/data/pytorch/pytorch_seg_dataset.py: 17
+# QA_med_data/mp/data/pytorch/transformation.py: 6,7
+# QA_med_data/mp/eval/inference/predict.py: 6
+# QA_med_data/mp/eval/inference/predictor.py: 9
+# QA_med_data/mp/eval/losses/loss_abstract.py: 7
+# QA_med_data/mp/eval/losses/losses_cnn.py: 6,7,9,10
+# QA_med_data/mp/eval/losses/losses_segmentation.py: 11,12
+# QA_med_data/mp/eval/metrics/mean_scores.py: 6
+# QA_med_data/mp/models/cnn/cnn.py: 5
+# QA_med_data/mp/models/model.py: 6
+# QA_med_data/mp/quantifiers/NoiseQualityQuantifier.py: 2
+# QA_med_data/mp/utils/Iterators.py: 4
+# QA_med_data/mp/utils/agents/save_restore.py: 1
+# QA_med_data/mp/utils/feature_extractor.py: 6
+# QA_med_data/mp/utils/load_restore.py: 10
+# QA_med_data/mp/utils/preprocess_utility_functions.py: 6
+# QA_med_data/mp/utils/pytorch/compute_normalization_values.py: 7
+# QA_med_data/mp/utils/pytorch/pytorch_load_restore.py: 5
+# QA_med_data/mp/utils/save_results.py: 2
+# QA_med_data/seg_qual_JIP_tests.py: 4
+# QA_med_data/test/cuda/test_cuda.py: 1
+# QA_med_data/test/data/pytorch/test_transformation.py: 1
+# QA_med_data/test/eval/inference/test_predict.py: 1
+# QA_med_data/test/eval/losses/test_losses_segmentation.py: 1
+# QA_med_data/test/eval/metrics/test_metrics_segmentation.py: 1
+# QA_med_data/test/utils/test_create_patches.py: 2
+# QA_med_data/train_restore_use_models/CNN_train_restore_use.py: 2,8,9
+torch == 1.6.0
+
+# QA_med_data/mp/data/datasets/dataset_JIP_cnn.py: 11
+# QA_med_data/mp/data/datasets/dataset_augmentation.py: 7
+# QA_med_data/mp/data/datasets/dataset_cnn.py: 10
+# QA_med_data/mp/data/datasets/dataset_segmentation.py: 8
+# QA_med_data/mp/data/datasets/dataset_statistics.py: 9
+# QA_med_data/mp/data/pytorch/pytorch_cnn_dataset.py: 18
+# QA_med_data/mp/data/pytorch/pytorch_seg_dataset.py: 18
+# QA_med_data/mp/data/pytorch/transformation.py: 8
+# QA_med_data/mp/eval/inference/predictor.py: 10
+# QA_med_data/mp/utils/Iterators.py: 3
+# QA_med_data/mp/utils/feature_extractor.py: 7
+torchio == 0.17.46
+
+# QA_med_data/mp/models/model.py: 8
+torchsummary == 1.2.0
+
+# QA_med_data/mp/data/pytorch/transformation.py: 9
+torchvision == 0.7.0
