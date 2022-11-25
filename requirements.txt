@@ -1,7 +1,7 @@
 -e .
 
 # QA_med_data/mp/visualization/visualize_imgs.py: 10
-Pillow == 8.1.0
+# Pillow == 8.1.0
 
 # QA_med_data/mp/data/DataConnectorJIP.py: 4
 # QA_med_data/mp/data/datasets/dataset_JIP_cnn.py: 14
